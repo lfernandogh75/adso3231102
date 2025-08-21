@@ -1,0 +1,51 @@
+.div1{
+    display: flex;
+    background-color: aqua;
+    height: 800px;
+    flex-direction: column;
+
+}
+
+.div1_1{
+    display: flex;
+    flex: 2;
+    background-color: bisque;
+    margin: 5px;
+    
+}
+.div1_2{
+    flex: 4;
+    background-color: rgb(15, 219, 55);
+    margin: 5px;
+}
+.div1_3{
+    flex: 2;
+    display: flex;
+    background-color: rgb(93, 15, 219);
+    margin: 5px;
+}
+.div1_1_1{
+    flex: 1;
+    background-color: rgb(162, 162, 42);
+    margin: 5px;
+}
+.div1_1_2{
+    flex: 1;
+    background-color: rgb(72, 194, 11);
+    margin: 5px;
+}
+.div1_3_1{
+    flex: 1;
+    background-color: rgb(180, 8, 108);
+    margin: 5px;
+}
+.div1_3_2{
+    flex: 1;
+    background-color: rgb(170, 107, 144);
+    margin: 5px;
+}
+.div1_3_3{
+    flex: 1;
+    background-color: rgb(116, 150, 86);
+    margin: 5px;
+}
