@@ -1,0 +1,22 @@
+/*Elimina diferencias entre navegadores*/
+*{ box-sizing: border-box;}/* Incluye border dentro del ancho y alto */
+html,body{margin: 0; padding: 0;}/*quita márgenes y relleno por defecto */
+img{ max-width: 100%; display: block;}/* nunca excede el ancho del contenedor */
+ul{padding-left: 1.2rem;}/*ajusta indentación de listas */
+/*   Diseño */
+/* variables CSS globales: colores, espaciado, radios*/
+:root{
+    --bg:#0f172a;     /* Color de fondo general */
+    --panel:#111827;  /*Color de paneles oscuros */
+    --text:#e5e7eb;   /*Color de texto principal */
+    --muted:#9ca3af;  /*texto secundario (gris tenue)*/
+    --primary:#3b82f6; /*Azul principal */
+    --accent:#22d3ee;   /*cian */
+    --card: #111827; /* fondos de tarjetas*/
+    --radius:16px;    /* Bordes redondeados */
+    /* Espaciados estándar */
+    --space-1: .5rem;
+    --space-2: 15rem;
+    --space-3: 1.5rem;
+    --space-4: 2rem;
+}
